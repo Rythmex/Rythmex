@@ -1,0 +1,181 @@
+:root {
+  --main-color: rgb(161, 8, 8);
+}
+
+
+html::-webkit-scrollbar {
+  width: 0.8rem;
+  background-color: white;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  border-radius: 3rem;
+  background-color: var(--main-color);
+}
+
+
+
+
+.about-banner {
+ width: 100%;
+  margin-top: -1.7%;
+  height: 80rem;
+  background: url(../images/hakkımızda.jpg) no-repeat;
+}
+
+.about-banne1 {
+ width: 100%;
+  margin-top: -1.7%;
+  height: 80rem;
+  background: url(../images/Logo/cinema.jpg) no-repeat;
+}
+/*.about-banner:hover{
+  height:62rem ;
+
+}*/
+
+
+#hom {
+  background: url(../images/Logo/cinema.jpg) no-repeat;
+  width: 100%;
+  height: 110vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  margin-top: -9%;
+  border-image: fill 5 linear-gradient(rgba(255, 255, 255, 0), #0000009a);
+}
+
+
+.about-banner img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: blur(.7rem);
+}
+
+.history-text{
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  background: linear-gradient(black,var(--main-color)); 
+  padding: 0% 0% 10% 3%;
+  
+}
+
+#propos1 {
+  background: url(../images/Logo/IMG_4304.JPG) no-repeat;
+  width: 100%;
+  height: 110vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  margin-top: -9%;
+  border-image: fill 5 linear-gradient(rgba(255, 255, 255, 0), #0000009a);
+}
+
+#propos2 {
+  background: url(../images/Logo/IMG_4299.JPG) no-repeat;
+  width: 100%;
+  height: 110vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  margin-top: -9%;
+  border-image: fill 5 linear-gradient(rgba(255, 255, 255, 0), #0000009a);
+}
+
+#propos3 {
+  background: url(../images/Logo/IMG_4302.PNG) no-repeat;
+  width: 100%;
+  height: 110vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  margin-top: -9%;
+  border-image: fill 5 linear-gradient(rgba(255, 255, 255, 0), #0000009a);
+}
+
+#propos4 {
+  background: url(../images/IMG_3657.PNG) no-repeat;
+  width: 100%;
+  height: 110vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  margin-top: -9%;
+  border-image: fill 5 linear-gradient(rgba(255, 255, 255, 0), #0000009a);
+}
+
+#propos5 {
+  background: url(../images/Logo/IMG_4307.WEBP) no-repeat;
+  width: 100%;
+  height: 110vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  margin-top: -9%;
+  border-image: fill 5 linear-gradient(rgba(255, 255, 255, 0), #0000009a);
+}
+
+#propos6 {
+  background: url(../images/Logo/IMG_4306.JPG) no-repeat;
+  width: 100%;
+  height: 110vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  margin-top: -9%;
+  border-image: fill 5 linear-gradient(rgba(255, 255, 255, 0), #0000009a);
+}
+
+.boton {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 2rem 3rem;
+  border-radius: 2rem;
+  font-size: 1.7rem;
+  color: white;
+  background: linear-gradient(var(--main-color),black) ;
+  cursor: pointer;
+  transition: all 0.8s;
+}
+
+
+.boton:hover {
+  opacity: 0.9;
+  font-size: 1.8rem;
+  background: linear-gradient(black,var(--main-color)) ;
+}

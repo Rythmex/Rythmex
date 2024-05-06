@@ -1,0 +1,87 @@
+:root {
+  --main-color: rgba(179, 0, 0, 0.822);
+  --border: 0.1rem solid rgba(179, 0, 0, 0.822);
+
+}
+
+#hom {
+  background: url(../images/land.jpg) no-repeat;
+  width: 100%;
+  height: 110vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  margin-top: -9%;
+  border-image: fill 5 linear-gradient(rgba(255, 255, 255, 0), #0000009a);
+}
+
+.contact{
+  background: url(../images/Logo/cinem.jpg);
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: -9%;
+  border-image: fill 5 linear-gradient(rgba(255, 255, 255, 0), #0000009a);
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+
+.info {
+  padding: 3% 5%;
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+  line-height: 12rem;
+}
+.form{
+  text-align: center;
+  background-color: white;
+  width: 70%;
+  margin-left: 15%;
+  border-radius: 4rem;
+  padding-top: 3%;
+  font-size: 2rem;
+}
+.contact-form {
+  width: 70%;
+  margin: 0 auto;
+  text-align: left;
+}
+.form-group {
+  border-bottom: 1px solid #a4a8aa;
+  padding-bottom: 1%;
+  margin: 5%;
+}
+.form-group input,
+.form-group textarea {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 100%;
+  display: block;
+  font-size: 2.4rem;
+}
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: 0;
+}
+
+.form .contact-form .btn {
+  opacity: 2;
+  margin-top: -2%;
+  margin-bottom: 2%;
+  margin-left: 3%;
+  color: white;
+  background-color: var(--main-color);
+}
+.form .contact-form .btn:hover {
+  background: linear-gradient(black,var(--main-color));
+  color: rgb(255, 255, 255);
+}
